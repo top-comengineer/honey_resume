@@ -64,9 +64,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">Sydney</strong> based <strong className="text-stone-100">Machine Learning & Quantum Computing Software Engineer</strong>
-        <br></br> currently working at <strong className="text-stone-100">Silicon Quantum Computing (SQC)</strong>
-        <br></br> building powerful quantum software and algorithms.
+        <strong className="text-stone-100">Hong Kong</strong> based <strong className="text-stone-100">AI, ML, data Scientist</strong>
+        <br></br> 7 years of experience in<strong className="text-stone-100">AI + Full stack development.</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">Self-motivated and team player</strong> with strong{' '}<br></br>
@@ -94,15 +93,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: avatar,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am an aspiring AI engineer who is on a journey to revolutionize the world and influence billions of lives with the power of AI technology.`,
   aboutItems: [
-    {label: 'Location', text: 'Sydney, NSW', Icon: MapIcon},
+    {label: 'Location', text: 'Hong Kong, KW', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Australian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Football, book', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Macquarie', Icon: AcademicCapIcon},
+    {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Football, Book', Icon: SparklesIcon},
+    {label: 'Study', text: 'Hong Kong University of Sci-Tech ( HKUST )', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'SQC, inc.', Icon: BuildingOffice2Icon},
   ],
 };
@@ -120,58 +117,70 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Chinese',
-        level: 5,
+        level: 9,
       },
     ],
   },
   {
-    name: 'Artificial Intelligence',
+    name: 'Programing languages',
     skills: [
       {
         name: 'Python',
+        level: 10,
+      },
+      {
+        name: 'JavaScript',
         level: 9,
       },
       {
-        name: 'PyTorch',
-        level: 7,
+        name: 'PHP',
+        level: 9,
       },
       {
-        name: 'Tensorflow',
+        name: 'C#',
         level: 8,
       },
     ],
   },
   {
-    name: 'Deep Learning',
+    name: 'Main Frameworks',
     skills: [
       {
-        name: 'Machine Learning',
-        level: 9,
+        name: 'Pytorch',
+        level: 10,
       },
       {
-        name: 'Neural Network',
-        level: 7,
+        name: 'TensorFlow',
+        level: 8,
       },
       {
-        name: 'API',
+        name: 'Laravel, React, Vue',
+        level: 8,
+      },
+      {
+        name: 'Django, Flask, Express, Streamlit',
         level: 8,
       },
     ],
   },
   {
-    name: 'Web & Mobile development',
+    name: 'Extra Stacks',
     skills: [
       {
-        name: 'Frontend Development',
-        level: 8,
+        name: 'Large Language Model',
+        level: 10,
       },
       {
-        name: 'Backend Development',
-        level: 8,
+        name: 'Computer Vision',
+        level: 10,
+      },
+      {
+        name: 'NLP',
+        level: 10,
       },
       {
         name: 'Mobile Development',
-        level: 6,
+        level: 8,
       },
     ],
   },
@@ -202,7 +211,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Quantum Computer',
     description: 'Give a short description of your project here.',
-    url: 'https://github.com/aiexpert-79/qc_computer.git',
+    url: 'https://github.com/aiexpert-79/bucket_bridge_qram_circuit.git',
     image: portfolioImage4,
   },
   {
@@ -212,9 +221,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: portfolioImage5,
   },
   {
-    title: 'Emotion Detection Bot',
+    title: 'Emotion Detection System',
     description: 'Give a short description of your project here.',
-    url: 'https://github.com/aiexpert-79/emotion_detection.git',
+    url: 'https://github.com/aiexpert-79/face_emotion_detection_Wizard-Tech .git',
     image: portfolioImage6,
   },
   {
@@ -238,13 +247,13 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'My chair',
     description: 'Give a short description of your project here.',
-    url: 'https://honey.me',
+    url: 'https://github.com/honey_resume.git',
     image: portfolioImage10,
   },
   {
     title: 'Ny Workplace',
     description: 'Give a short description of your project here.',
-    url: 'https://honey.me',
+    url: 'https://github.com/honey_resume.git',
     image: portfolioImage11,
   },
 ];
@@ -255,7 +264,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'April 2011 - March 2013',
-    location: 'Macquarie University',
+    location: 'HKUST',
     title: 'Bachelor degree on Computer Science',
     content: <p>Weller Scholarship, Achieved 4.3 GPA.</p>,
   },
@@ -269,26 +278,47 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '2018 - Present',
-    location: 'SILICON QUANTUM COMPUTING, Sydney, NSW',
-    title: 'Machine Learning Engineer',
+    date: 'September 2023 - October 2023',
+    location: 'Wizard-Techan strong pant',
+    title: 'Emotion-AI developer',
     content: (
       <p>
-        • Worked closely with data scientists, testing algorithm prototypes at scale in production environments using terabytes of real-time data<br></br>
-        • Employed a mastery of common programming languages, including Python and C++, to write software prototypes<br></br>
+        • Developed Emotion-AI platform which is consisted of 3 main parts. <br></br>
+        • Ongoing Integration project with Wizard-Tech.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2023 - July 2023',
+    location: 'OpenAI',
+    title: 'Custom chatbot developer',
+    content: (
+      <p>
+        • Developed ChatGPT models for various purposes, contributing to customize and stream output. <br></br>
+        • Contributed to designing scalable backend technologies, database data retrieval, and preprocessing mechanisms using Python, Django and OpenAI.<br></br>
+        • Customized and fine-tuned production-level web services and GPU clusters.
+      </p>
+    ),
+  },
+  {
+    date: 'May 2019 - October 2022',
+    location: 'Z DJI Technology Co., Ltd',
+    title: 'Senior Data Scientist',
+    content: (
+      <p>
+        • Image and multi-media processing and software development for airplane and drone using AI GANs.<br></br>
         • Leveraged programming frameworks and big data tools to ensure accurate use of raw data from data pipelines
       </p>
     ),
   },
   {
-    date: '2015 - 2018',
-    location: 'DIRAQ Sydney, NSW',
-    title: 'Quantum software developer',
+    date: 'July 2017 - January 2018',
+    location: 'Germany Dr.Rohit',
+    title: 'Quantum Computing software developer ',
     content: (
       <p>
-        • Consistently met my short and long-term targets.<br></br>
-        • Handled customer complaints with empathy and composure.<br></br>
-        • Leveraged programming frameworks and big data tools to ensure accurate use of raw data from data pipelines
+        • QRAM circuit proposed by bbqram paper will be considered where arbitrarily T-gates are chosen to be removed and the underlying modified QRAM circuit will be compared against the original one.<br></br>
+        • study optimising the depth of QRAM circuits for the purpose of reducing the searching time of the stored information.
       </p>
     ),
   },
@@ -333,8 +363,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Sydney NSW, Australia',
-      href: 'https://www.google.ca/maps/place/Sydney,+NSW/@48.4262362,-123.376775,14z',
+      text: 'Kowloon KW, Hong Kong',
+      href: 'https://www.google.ca/maps/place/kowloon,+KW/@48.4262362,-123.376775,14z',
     },
     {
       type: ContactType.Instagram,
