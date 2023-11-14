@@ -151,15 +151,15 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'TensorFlow',
-        level: 8,
+        level: 10,
       },
       {
         name: 'Laravel, React, Vue',
-        level: 8,
+        level: 10,
       },
       {
         name: 'Django, Flask, Express, Streamlit',
-        level: 8,
+        level: 10,
       },
     ],
   },
